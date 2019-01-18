@@ -11,13 +11,22 @@ h1 {
     padding: 0;
 }
 .card img {
-    width: 325px;
-    height: 325px;
+    width: 352px;
+    height: 352px;
 }
 .card {
     float: left;
-    margin-right: 30px;
+    margin-right: 47px;
     word-wrap: normal !important;
+    width: 352px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+.card:nth-of-type(3) {
+    margin-right: 0px;
+}
+.card:nth-of-type(6) {
+    margin-right: 0px;
 }
 p {
     font-size: 15px;
@@ -30,10 +39,7 @@ p {
     background-color: rgb(233, 238, 213);
     padding: 8px 0;
 }
-/* a .myNavLink .nav-link {
-    padding: 8px 0 8px 8px;
-} */
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 0;
 }
-
