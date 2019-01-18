@@ -11,6 +11,12 @@ h1 {
     padding: 50px 0 8px 0;
     color:  rgb(233, 238, 213);
 }
+h4 {
+    background-color: green;
+    text-align: center;
+    padding: 8px 0 8px 0;
+    color:  rgb(233, 238, 213);
+}
 .container-fluid {
     padding: 0;
 }
@@ -42,8 +48,11 @@ p {
 .my-nav {
     background-color: rgb(233, 238, 213);
     padding: 8px 0;
+    margin-left: 40px;
 }
-
+a {
+    font-weight:bolder;
+}
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 0;
 }
@@ -63,21 +72,22 @@ footer {
     border: 0;
 }
 #card-more {
-    padding:  0rem 0 1.25rem 0;
+    padding: 0rem 0 1.25rem 0;
     background-color: rgb(233, 238, 213);
 }
-footer .card {
-    background-color: green;
+ul {
+    margin: -10px -40px;
 }
-#card-footer {
-    padding:  0rem 0 1.25rem 0;
-    background-color: green;
-}
+ul ol {
+    display: inline;
+    padding:0;
+    margin:0;
+}   
+
 .social {
-    padding: 0 10px 0 0;
-    width: 50px;
-    margin: -10px 0 0 0;
-    clear: both;
+    padding: 0;
+    width: 40px;
+    height: 40px;
 }
 #emailTable {
     border-spacing: 1em .5em;
