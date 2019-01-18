@@ -1,11 +1,15 @@
-
+html, body {
+    height: 100%;
+    margin: 0;
+}
 body {
     background-color: rgb(233, 238, 213);
 }
 h1 {
     background-color: green;
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 50px 0 8px 0;
+    color:  rgb(233, 238, 213);
 }
 .container-fluid {
     padding: 0;
@@ -16,9 +20,9 @@ h1 {
 }
 .card {
     float: left;
-    margin-right: 47px;
+    margin-right: 23px;
     word-wrap: normal !important;
-    width: 352px;
+    width: 354px;
     height: 450px;
     margin-bottom: 20px;
 }
@@ -42,4 +46,40 @@ p {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 0;
+}
+footer {
+    background-color: green;
+    margin: 0px 0 0px 0;
+    padding: 1rem 2rem;
+    border-top: dotted 1px green;
+    height: 150px;
+    color: rgb(233, 238, 213);
+    clear: both;
+}
+.push {
+    height: 150px;
+}
+#card-mor {
+    border: 0;
+}
+#card-more {
+    padding:  0rem 0 1.25rem 0;
+    background-color: rgb(233, 238, 213);
+}
+footer .card {
+    background-color: green;
+}
+#card-footer {
+    padding:  0rem 0 1.25rem 0;
+    background-color: green;
+}
+.social {
+    padding: 0 10px 0 0;
+    width: 50px;
+    margin: -10px 0 0 0;
+    clear: both;
+}
+#emailTable {
+    border-spacing: 1em .5em;
+    padding: 0 2em 1em 0;
 }

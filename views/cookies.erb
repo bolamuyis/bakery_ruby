@@ -11,13 +11,17 @@
 <body>
 
 <% @cookies.each do |item| %>
-    <div class="image">
-    <img src="<%=item.picture%>">
-    <h5><%=item.name%></h5>
-    <p class="content-description"><%=item.price%></p>
-    <p class="content-description"><%=item.description%></p>
-<% end %></p>
+<!-- Cards begin here -->
 
+  <div class="card" style="">
+    <img class="card-img-top" src="<%=item.picture%>" alt="Card image cap">
+    <div class="card-body">
+      <h6 class="card-title"><%=item.name%> | <%=item.price%></h6>
+      <p class="card-text"><%=item.description%></p>
+    </div>
+  </div>
 
+<% end %></p> 
+<!-- Cards begin here -->
 </body>
 </html>
