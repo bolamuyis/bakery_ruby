@@ -1,0 +1,39 @@
+
+body {
+    background-color: rgb(233, 238, 213);
+}
+h1 {
+    background-color: green;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+.container-fluid {
+    padding: 0;
+}
+.card img {
+    width: 325px;
+    height: 325px;
+}
+.card {
+    float: left;
+    margin-right: 30px;
+    word-wrap: normal !important;
+}
+p {
+    font-size: 15px;
+}
+.products {
+    width: 1024px;
+    margin: 0 auto;
+}
+.my-nav {
+    background-color: rgb(233, 238, 213);
+    padding: 8px 0;
+}
+/* a .myNavLink .nav-link {
+    padding: 8px 0 8px 8px;
+} */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+}
+
