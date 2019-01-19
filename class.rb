@@ -20,4 +20,3 @@ class Muffins
         @name, @price, @description, @picture = name, price, description, picture
     end
 end
-

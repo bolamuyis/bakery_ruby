@@ -5,6 +5,9 @@ html, body {
 body {
     background-color: rgb(233, 238, 213);
 }
+#line, #price {
+    color: green;
+}
 h1 {
     background-color: green;
     text-align: center;
@@ -14,7 +17,8 @@ h1 {
 h4 {
     background-color: green;
     text-align: center;
-    padding: 8px 0 15px 0;
+    padding: 8px 0 8px 0;
+    margin-bottom: 20px;
     color:  rgb(233, 238, 213);
 }
 .container-fluid {
@@ -38,24 +42,28 @@ h4 {
     margin: .75rem 0 0 0;
 }
 .card img {
-    width: 352px;
-    height: 352px;
+    width: 353px;
+    height: 353px;
+}
+.name-price-description {
+    margin: 1rem 0;
+}
+.card-title {
+    margin-bottom: .15rem;
 }
 .card-deck {
-    margin: 20px auto;
-}
+    margin: 20px auto;}
 .card {
     float: left;
-    margin-right: 23px;
+    margin-right: 24px;
     word-wrap: normal !important;
     width: 354px;
     height: 450px;
     margin-bottom: 20px;
+    background-color: rgb(233, 238, 213);
+    border: none;
 }
-.card:nth-of-type(3) {
-    margin-right: 0px;
-}
-.card:nth-of-type(6) {
+.card:nth-of-type(3n+3) {
     margin-right: 0px;
 }
 p {
@@ -72,16 +80,24 @@ p {
 }
 a {
     font-weight:bolder;
+    font-size: 1.25  rem;
+    
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 0;
+    color: green;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    padding-left: 0;
+    color: green;
+    text-decoration: underline;
 }
 footer {
     background-color: green;
     margin: 0px 0 0px 0;
     padding: 0;
     border-top: dotted 1px green;
-    height: 250px;
+    height: 200px;
     color: rgb(233, 238, 213);
     clear: both;
 }
@@ -102,8 +118,7 @@ ul ol {
     display: inline;
     padding:0;
     margin:0;
-}   
-
+}
 .social {
     padding: 0;
     width: 40px;

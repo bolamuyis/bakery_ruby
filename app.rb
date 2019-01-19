@@ -25,6 +25,9 @@ cookies = [
     Cookies.new("Christmas Cookies", "$4", "Perfect cookies for Santa", "https://i.imgur.com/758sfDI.jpg"),
     Cookies.new("Oatmeal Cookies", "$2", "Oatmeal cookies with raisins", "https://i.imgur.com/VJUEcDT.jpg"),
     Cookies.new("Butter Milk Cookies", "$1.50", "These cookies are a buttery delicacy", "https://i.imgur.com/jg4ktKD.jpg"),
+    Cookies.new("Chocolate chip cookies with a twist", "$3", "This one is special, come find out why", "https://i.imgur.com/EkYKVTY.jpg"),
+    Cookies.new("Chocolate chip cookies with a twist", "$3", "This one is special, come find out why", "https://i.imgur.com/EkYKVTY.jpg"),
+    Cookies.new("Chocolate chip cookies with a twist", "$3", "This one is special, come find out why", "https://i.imgur.com/EkYKVTY.jpg"),
     Cookies.new("Chocolate chip cookies with a twist", "$3", "This one is special, come find out why", "https://i.imgur.com/EkYKVTY.jpg")
 ]
 get "/cookies" do

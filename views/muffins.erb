@@ -10,14 +10,14 @@
 </head>
 <body>
 
-<h4>MUFFINS</h4>
+<h4>: MUFFINS :</h4>
 <% @muffins.each do |item| %>
 <!-- Cards begin here -->
 
   <div class="card" style="">
-    <img class="card-img-top" src="<%=item.picture%>" alt="Card image cap">
-    <div class="card-body">
-      <h6 class="card-title"><%=item.name%> | <%=item.price%></h6>
+    <img class="card-img-top" src="<%=item.picture%>" alt="Marien's Bakery products: Cakes, Cookies, Muffins and many more.">
+    <div class="name-price-description">
+      <h6 class="card-title"><%=item.name%> | <span id="price"><%=item.price%></span></h6>
       <p class="card-text"><%=item.description%></p>
     </div>
   </div>
