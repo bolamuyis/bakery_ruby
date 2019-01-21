@@ -51,11 +51,8 @@ get "/muffins" do
     erb :muffins
 end
 
-get "/form" do
-    erb :form
-end
 
-post "/thank-you" do
+post "/" do
   from = SendGrid::Email.new(email: 'bolamuyis@gmail.com')
   to = SendGrid::Email.new(email: params[:email])
   subject = params[:name]
@@ -124,6 +121,9 @@ post "/thank-you" do
   # display http response headers
   puts response.headers
 
-  redirect "/"
+  redirect "/confirm"
 end
 
+get "/confirm" do
+  erb :confirm
+end
