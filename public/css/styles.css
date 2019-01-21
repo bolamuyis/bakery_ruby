@@ -24,10 +24,6 @@ h4 {
 .container-fluid {
     padding: 0;
 }
-.card img {
-    width: 352px;
-    height: 352px;
-}
 .homecard {
     float: left;
     margin-right: 18px;
@@ -41,10 +37,6 @@ h4 {
 #fix {
     margin: .75rem 0 0 0;
 }
-.card img {
-    width: 353px;
-    height: 353px;
-}
 .name-price-description {
     margin: 1rem 0;
 }
@@ -52,19 +44,16 @@ h4 {
     margin-bottom: .15rem;
 }
 .card-deck {
-    margin: 20px auto;}
+    margin: 20px auto;
+}
 .card {
     float: left;
-    margin-right: 24px;
     word-wrap: normal !important;
     width: 354px;
     height: 450px;
     margin-bottom: 20px;
     background-color: rgb(233, 238, 213);
     border: none;
-}
-.card:nth-of-type(3n+3) {
-    margin-right: 0px;
 }
 p {
     font-size: 15px;
@@ -91,15 +80,6 @@ a {
     padding-left: 0;
     color: green;
     text-decoration: underline;
-}
-footer {
-    background-color: green;
-    margin: 0px 0 0px 0;
-    padding: 0;
-    border-top: dotted 1px green;
-    height: 200px;
-    color: rgb(233, 238, 213);
-    clear: both;
 }
 .push {
     height: 150px;
@@ -128,3 +108,53 @@ ul ol {
     border-spacing: 1em .5em;
     padding: 0 2em 1em 0;
 }
+div#card-footer.card-body {
+    padding: 0px 20px 0px 0px;
+}
+.my-nav navbar navbar-expand-lg navbar-light {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+/* All Media Quaries */
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    nav.my-nav.navbar.navbar-expand-lg.navbar-light {margin: 0;}
+    ul.navbar-nav.mr-auto{margin-left: 0}
+    .card{width: 100%;height: 100%;max-width: 1110px;max-height: 1110px;}
+    div.card {width: 100%;max-width: 1110px;}
+    footer {height: 350px;padding: 0px;}
+  }
+    
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    nav.my-nav.navbar.navbar-expand-lg.navbar-light {margin: 0;}
+    ul.navbar-nav.mr-auto{margin-left: 0}
+    .card{width: 100%;height: 100%;max-width: 1110px;max-height: 1110px;}
+    div.card {width: 100%;max-width: 1110px;}
+    footer {height: 240px;padding: 0;}
+  } 
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width:991px) {
+    .navbar-expand-lg.navbar-nav {flex-direction:row}
+    .navbar-expand-lg {-ms-flex-flow: row nowrap;flex-flow: row nowrap;-ms-flex-pack: start;justify-content: flex-start;}
+    .card {margin-right: 25px;}
+    .card:nth-of-type(2n+2) {margin-right: 0px;}
+    div.card {width: 100%;max-width: 332px;}
+    footer {height: 200px;padding: 0 0 0 0px;}
+  } 
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width:1199px) {
+    .card {margin-right: 15px;}
+    .card:nth-of-type(3n+3) {margin-right: 0px;}
+    div.card {width: 100%;max-width: 300px;}
+    footer {height: 200px;}
+  } 
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .card {margin-right: 18px;}
+    .card:nth-of-type(3n+3) {margin-right: 0px;}
+    div.card {width: 100%;max-width: 358px;}
+    footer {height: 200px;}
+  }
+  /* All Media Quaries */
+
