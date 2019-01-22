@@ -59,10 +59,7 @@ post "/" do
   content = SendGrid::Content.new(
     type: 'text/html',
     value: 
-  "<p><strong>Ma BAKERY CATALOG</strong><br>
-  Feel free to reach out with any questions or for quotes for your upcoming event.</p>
-
-<p><strong>CAKES</stong></p>
+  "<p><strong>CAKES</stong></p>
   <p><a href=\"http://localhost:4567/cakes\" target=\"_blank\"><img src=\"https://i.imgur.com/0D7UkmV.jpg\" alt=\"Apple Cake\"/></a><br>
     Name: Apple Cake, Price: $12 <br>
     <a href=\"http://localhost:4567/cakes\" target=\"_blank\"><img src=\"https://i.imgur.com/VvR5xrz.jpg\" alt=\"Strawberry Cake\"/></a><br>
@@ -103,8 +100,7 @@ post "/" do
     Name: Assorted Cupcakes with Icing, Price: $12 <br>
     <a href=\"http://localhost:4567/cakes\" target=\"_blank\"><img src=\"https://i.imgur.com/qjB9D1s.jpg\" alt=\"Cakes and Cupcakes\"/></a><br>
     Name: Cakes and Cupcakes, Price: $42
-  </p>
-  "
+  </p>"
   )
   # create mail object with from, subject, to and content
   mail = SendGrid::Mail.new(from, subject, to, content)
